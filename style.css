@@ -1,0 +1,200 @@
+body{
+    font-family: 'Jost', sans-serif;
+    background: #A4A4A4;
+}
+
+
+.contenedor-imagen{
+    display: inline-block;
+    margin: 40px 350px 20px 0;
+    
+    
+}
+
+.contenedor-imagen img{
+    width: 200px;
+    border-color: #000000;
+    border-width: 4px;
+    border-radius: 100px;
+    box-shadow: -18px 15px 69px -7px #000000;
+}
+
+.nombre{
+    display: inline-block;
+    position: absolute;
+    left: 220px;
+    top: 130px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.nav-caja{
+    color:darkblue;    
+    width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.contenedor-boton{
+    display: inline-block;
+    position: absolute;
+    top: 130px;
+    right: -20px;
+    
+}
+
+.contenedor-boton li {
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+.boton a, .volver a{
+    
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: 150ms;
+    text-decoration: none;
+}
+
+.boton a:hover, .volver a:hover{
+    color: #ffffff;
+    text-decoration-line: underline;
+    opacity: 55%;
+    border-color: cadetblue;
+}
+
+/*-----main-----*/
+
+
+.main-caja{
+    border-width: 2px; /* Ancho del borde */
+    border-style: solid; /* Estilo del borde (puede ser dashed, dotted, etc.) */
+    border-color: #5F01A4; /* Color del borde */
+    border-radius: 15px;
+    padding:15px;
+    background-color: white;
+    width: 1080px;
+    height: 1024;
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+
+.titulo-principal{ 
+    text-align: left;
+    text-transform: uppercase;
+    margin: 20px 10px;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.text, .caja-contacto ul{
+    text-align: justify;
+    font-size: 22px;
+    margin-bottom: 50px;
+    line-height: 35px;
+}
+
+
+/*-----mis datos, contacto, experiencia------*/
+
+.caja-datos, .caja-contacto, .caja-experiencia {
+    border-width: 2px; /* Ancho del borde */
+    border-style: solid; /* Estilo del borde (puede ser dashed, dotted, etc.) */
+    border-color: #5F01A4; /* Color del borde */
+    border-radius: 15px;
+    padding:15px;
+    background-color: white;
+    width: 1080px;
+    margin: 10px auto 10px auto;
+}
+
+.volver{
+    padding:15px;
+    background-color: #A4A4A4;
+    width: 1080px;
+    margin: 5px auto 5px auto;
+
+}
+
+.caja-experiencia ul{
+    font-size: 18px;
+    margin: 20px 0 45px;
+}
+
+.caja-experiencia li{
+    line-height: 40px;
+}
+
+.caja-experiencia li:before{
+    content: "\25CF";
+
+}
+
+#data, #contacto,  .caja-experiencia h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.lista-datos, .lista-contacto{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 22px;
+    line-height:normal;
+}
+
+.data-ajuste, .contacto-ajuste{
+    display: inline-block;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.lista-contacto{
+   margin-bottom: 3em;
+
+}
+
+
+.volver h2{
+    text-align: center;
+    margin: 5px 0 6px;
+}
+
+.volver button{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 60px;
+    transition: 150ms;
+    
+}
+
+.volver button:hover{
+    background: #A4A4A4;
+    color: #ffffff;
+}
+
+/*-----footer------*/
+
+footer{
+    
+    background-color: darkslateblue;
+    padding: 45px;
+    text-align: center;
+}
+
+.text-footer{
+    color: #ffffff;
+    font-size: 13px;   
+   
+}
